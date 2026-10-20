@@ -330,9 +330,9 @@ a:focus-visible {
 .memory-card__photo img {
   display: block;
   width: 100%;
-  aspect-ratio: 3 / 3.4;
-  object-fit: cover;
-  object-position: center 43%;
+  height: auto;
+  aspect-ratio: auto;
+  object-fit: contain;
   background: #eee7e1;
 }
 
@@ -749,7 +749,7 @@ a:focus-visible {
   }
 
   .memory-card__photo {
-    width: min(82%, 350px);
+    width: min(100%, 350px);
     justify-self: center;
   }
 
